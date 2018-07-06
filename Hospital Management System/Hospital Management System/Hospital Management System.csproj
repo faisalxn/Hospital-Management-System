@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9AFAA140-5776-4828-B03E-EF17A3CB5404}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hospital_Management_System</RootNamespace>
+    <AssemblyName>Hospital Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addDoctorInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addDoctorInformationForm.Designer.cs">
+      <DependentUpon>addDoctorInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addRoomInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addRoomInformationForm.Designer.cs">
+      <DependentUpon>addRoomInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addStaffInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addStaffInformationForm.Designer.cs">
+      <DependentUpon>addStaffInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addTestInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addTestInformationForm.Designer.cs">
+      <DependentUpon>addTestInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillForm.Designer.cs">
+      <DependentUpon>BillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checkoutData.cs" />
+    <Compile Include="doctorDAO.cs" />
+    <Compile Include="doctorDTO.cs" />
+    <Compile Include="doctorInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doctorInformationForm.Designer.cs">
+      <DependentUpon>doctorInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="passwordChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="passwordChangeForm.Designer.cs">
+      <DependentUpon>passwordChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="passwordDAO.cs" />
+    <Compile Include="passwordDTO.cs" />
+    <Compile Include="patientCheckoutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="patientCheckoutForm.Designer.cs">
+      <DependentUpon>patientCheckoutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="patientDAO.cs" />
+    <Compile Include="patientDTO.cs" />
+    <Compile Include="patientInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="patientInformationForm.Designer.cs">
+      <DependentUpon>patientInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="patientRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="patientRegistrationForm.Designer.cs">
+      <DependentUpon>patientRegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="roomDAO.cs" />
+    <Compile Include="roomDTO.cs" />
+    <Compile Include="roomInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="roomInformationForm.Designer.cs">
+      <DependentUpon>roomInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sqlDatabase.cs" />
+    <Compile Include="staffDAO.cs" />
+    <Compile Include="staffDTO.cs" />
+    <Compile Include="staffInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staffInformationForm.Designer.cs">
+      <DependentUpon>staffInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testDAO.cs" />
+    <Compile Include="testDTO.cs" />
+    <Compile Include="testInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testInformationForm.Designer.cs">
+      <DependentUpon>testInformationForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addDoctorInformationForm.resx">
+      <DependentUpon>addDoctorInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addRoomInformationForm.resx">
+      <DependentUpon>addRoomInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addStaffInformationForm.resx">
+      <DependentUpon>addStaffInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addTestInformationForm.resx">
+      <DependentUpon>addTestInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillForm.resx">
+      <DependentUpon>BillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doctorInformationForm.resx">
+      <DependentUpon>doctorInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="passwordChangeForm.resx">
+      <DependentUpon>passwordChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="patientCheckoutForm.resx">
+      <DependentUpon>patientCheckoutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="patientInformationForm.resx">
+      <DependentUpon>patientInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="patientRegistrationForm.resx">
+      <DependentUpon>patientRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="roomInformationForm.resx">
+      <DependentUpon>roomInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staffInformationForm.resx">
+      <DependentUpon>staffInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testInformationForm.resx">
+      <DependentUpon>testInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cure-Logo-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main background1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main background2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main background3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main background4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main background5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

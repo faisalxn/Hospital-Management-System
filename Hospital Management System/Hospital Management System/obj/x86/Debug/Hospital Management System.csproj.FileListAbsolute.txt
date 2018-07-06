@@ -1,0 +1,22 @@
+c:\users\user\documents\visual studio 2010\Projects\Hospital Management System\Hospital Management System\bin\Debug\Hospital Management System.exe
+c:\users\user\documents\visual studio 2010\Projects\Hospital Management System\Hospital Management System\bin\Debug\Hospital Management System.pdb
+c:\users\user\documents\visual studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.Properties.Resources.resources
+c:\users\user\documents\visual studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital Management System.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital Management System.exe
+c:\users\user\documents\visual studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital Management System.pdb
+c:\users\user\documents\visual studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.loginForm.resources
+c:\users\user\documents\visual studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.mainForm.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital Management System.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.patientRegistrationForm.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.patientInformationForm.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.patientCheckoutForm.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.doctorInformationForm.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.staffInformationForm.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.roomInformationForm.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.testInformationForm.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.addDoctorInformationForm.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.addRoomInformationForm.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.addStaffInformationForm.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.addTestInformationForm.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.passwordChangeForm.resources
+C:\Users\user\documents\visual studio 2010\Projects\Hospital Management System\Hospital Management System\obj\x86\Debug\Hospital_Management_System.BillForm.resources
